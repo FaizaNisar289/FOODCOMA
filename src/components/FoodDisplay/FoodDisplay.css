@@ -1,0 +1,30 @@
+.food-display {
+  margin-top: 30px;
+}
+
+.food-display h2 {
+  font-size: max(2vw, 24px);
+  font-weight: 600;
+  margin-bottom: 10px; /* space below heading */
+}
+
+.food-description {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 25px; /* space between description and food list */
+  font-style: italic;
+  max-width: 600px; /* optional, for readability */
+}
+
+.food-display-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 30px;
+  row-gap: 50px;
+}
+.food-display-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* changed from 240px to 200px */
+  gap: 30px;
+  row-gap: 50px;
+}
